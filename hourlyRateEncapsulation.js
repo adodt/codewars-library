@@ -5,4 +5,5 @@ let seriousBusinessPerson = {
     calculateProfit: function(){
         return this.hourlyRate * this.hours * (1-this.taxRate)
     }
+
 }
